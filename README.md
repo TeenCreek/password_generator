@@ -9,7 +9,7 @@ GeneratePassword - это простой и безопасный генерат�
 
 ## Использование
 
-1. Скачайте проект с GitHub:
+1. Скачайте проект с GitHub по SSH: git clone git@github.com:TeenCreek/password_generator.git
 2. Создайте экземпляр класса GeneratePassword: `pass1 = GeneratePassword(15)`
 3. Генерируйте пароль с помощью метода generate_password() `pass1.generate_password()`
 4. С помощью метода get_password() вывести сгенерированный пароль `pass1.get_password()`
